@@ -43,7 +43,7 @@ Monitoring is the process of keeping an eye on these metrics over time to unders
 - It takes care of deduplicating, grouping, and routing alerts to the appropriate notification channels such as PagerDuty, email, or Slack.
 
 ### 🧲 Exporters
-- Exporters are small applications that collect metrics from various third-party systems and expose them in a format Prometheus can scrape. They are essential for monitoring systems that do not natively support Prometheus.
+- Exporters are small applications that collect metrics from various third-party systems and expose them in a format Prometheus can scrape: Automatically pulling monitoring data from systems. They are essential for monitoring systems that do not natively support Prometheus.
 - Types of Exporters:
     - Common exporters include the Node Exporter (for hardware metrics), the MySQL Exporter (for database metrics), and various other application-specific exporters.
 
@@ -51,7 +51,7 @@ Monitoring is the process of keeping an eye on these metrics over time to unders
 - The Prometheus Web UI allows users to explore the collected metrics data, run ad-hoc PromQL queries, and visualize the results directly within Prometheus.
 
 ### 📊 Grafana
-- Grafana is a powerful dashboard and visualization tool that integrates with Prometheus to provide rich, customizable visualizations of the metrics data.
+- Grafana is a powerful dashboard and visualization tool that integrates(Connecting Prometheus with tools to visualize, alert, and extend monitoring) with Prometheus to provide rich, customizable visualizations of the metrics data.
 
 ### 🔌 API Clients
 - API clients interact with Prometheus through its HTTP API to fetch data, query metrics, and integrate Prometheus with other systems or custom applications.
